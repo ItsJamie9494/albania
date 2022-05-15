@@ -8,16 +8,19 @@
     <child type="action">
       <object class="GtkButton" id="button_yes">
         <property name="label" translatable="yes">Yes</property>
+        <signal name="clicked" handler="on_btn_click"/>
       </object>
     </child>
     <child type="action">
       <object class="GtkButton" id="button_no">
         <property name="label" translatable="yes">No</property>
+        <signal name="clicked" handler="on_btn_click"/>
       </object>
     </child>
     <child type="action">
       <object class="GtkButton" id="button_cancel">
         <property name="label" translatable="yes">Cancel</property>
+        <signal name="clicked" handler="on_btn_click"/>
       </object>
     </child>
     
